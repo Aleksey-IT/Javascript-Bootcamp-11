@@ -460,16 +460,15 @@
 // };
 
 // function getTotal(products, order) {
-//   //  console.log(products);
-//    console.log(order);
-//   const total = arr => arr.reduce((acc, el) => products === , 0);
-// console.log(total);
-// }
+//   let arr = Object.keys(order);
+//   const total = arr.reduce((acc, el) => acc += order[el] * products[el], 0);
+//   return total;
 
-// // Вызовы функции для проверки
-// console.log(getTotal(products, orderA)); // 140
-// console.log(getTotal(products, orderB)); // 120
-// console.log(getTotal(products, orderC)); // 80
+// }
+// Вызовы функции для проверки
+console.log(getTotal(products, orderA)); // 140
+console.log(getTotal(products, orderB)); // 120
+console.log(getTotal(products, orderC)); // 80
 
 
 //========================== task 09 =====================
